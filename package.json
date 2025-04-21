@@ -1,0 +1,28 @@
+{
+  "name": "educase_india_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Mohit251103/educase_india_assignment#readme",
+  "bugs": {
+    "url": "https://github.com/Mohit251103/educase_india_assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohit251103/educase_india_assignment.git"
+  },
+  "license": "ISC",
+  "author": "Mohit Negi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1"
+  }
+}
