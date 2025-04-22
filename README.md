@@ -126,7 +126,7 @@ GET /api/listSchools?latitude=37.7749&longitude=-122.4194
       "address": "123 Education St, Learning City, 12345",
       "latitude": 37.7749,
       "longitude": -122.4194,
-      "distance": 0.0
+      "dist": 0.0
     },
     {
       "id": 2,
@@ -134,7 +134,7 @@ GET /api/listSchools?latitude=37.7749&longitude=-122.4194
       "address": "456 Learning Ave, Education Town, 67890",
       "latitude": 37.7847,
       "longitude": -122.4295,
-      "distance": 1.2
+      "dist": 1.2
     }
   ]
 }
