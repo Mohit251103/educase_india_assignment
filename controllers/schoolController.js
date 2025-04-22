@@ -23,8 +23,8 @@ function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
 
 
 exports.getSchools = async (req, res) => {
-    const userLat = req.query.latitude;
-    const userLong = req.query.longitude;
+    const userLat = parseFloat(req.query.latitude);
+    const userLong = parseFloat(req.query.longitude);
 
 
     if (isNaN(userLat) || isNaN(userLong)) {
@@ -47,8 +47,7 @@ exports.getSchools = async (req, res) => {
 
     } catch (error) {
         return res.status(500).json({
-            message: "Internal server error",
-            error: error.message
+            message: "Internal server error"
         })
     }
 };
